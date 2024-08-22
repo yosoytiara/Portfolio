@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&family=Reenie+Beanie&display=swap");
 main {
   background-color: rgb(255, 212, 223);
   font-family: "Reenie Beanie", cursive;
@@ -109,6 +110,12 @@ button:hover {
 #contact a:hover {
   color: rgb(52, 143, 248);
 }
+#contact p {
+  font-size: 20px;
+}
+#connect {
+  font-size: 25px;
+}
 /* projects section */
 .projects {
   background-color: rgb(255, 212, 223);
@@ -170,6 +177,10 @@ footer p {
   text-align: center;
 }
 
+footer a {
+  color: black;
+}
+
 /* desktop and laptops */
 @media only screen and (min-width: 768px) {
   #intro h1 {
@@ -209,5 +220,8 @@ footer p {
     content: "";
     display: table;
     clear: both;
+  }
+  #contact #connect {
+    font-size: 35px;
   }
 }
