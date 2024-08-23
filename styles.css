@@ -89,6 +89,9 @@ button:hover {
   font-family: sans-serif;
   font-weight: 100;
 }
+#stack {
+  line-height: 30px;
+}
 
 /* contact section */
 #contact {
