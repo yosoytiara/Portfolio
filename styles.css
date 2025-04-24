@@ -1,19 +1,19 @@
-@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&family=Reenie+Beanie&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Reenie+Beanie&display=swap');
 main {
   background-color: rgb(255, 212, 223);
-  font-family: "Reenie Beanie", cursive;
+  font-family: 'Reenie Beanie', cursive;
   padding: 30px;
   border-radius: 10px;
 }
 #intro h1 {
-  font-family: "Fjalla One", sans-serif;
+  font-family: 'Fjalla One', sans-serif;
   font-size: 45px;
 }
 #intro {
   text-align: center;
   margin-top: 25%;
   margin-bottom: 15%;
-  font-family: "Reenie Beanie", cursive;
+  font-family: 'Reenie Beanie', cursive;
 }
 #intro h2 {
   font-size: 20px;
@@ -35,7 +35,7 @@ nav ul {
   list-style: none;
 
   text-decoration: none;
-  font-family: "Reenie Beanie", cursive;
+  font-family: 'Reenie Beanie', cursive;
   font-size: 20px;
 }
 nav a {
@@ -65,7 +65,7 @@ button {
   color: white;
   padding: 15px 32px;
   border-radius: 15px;
-  font-family: "Reenie Beanie", cursive;
+  font-family: 'Reenie Beanie', cursive;
   font-size: 18px;
   cursor: pointer;
 }
@@ -98,7 +98,7 @@ button:hover {
 /* contact section */
 #contact {
   text-align: center;
-  font-family: "Reenie Beanie", cursive;
+  font-family: 'Reenie Beanie', cursive;
 }
 #contact li {
   display: inline-block;
@@ -124,7 +124,7 @@ button:hover {
 /* projects section */
 .projects {
   background-color: rgb(255, 212, 223);
-  font-family: "Reenie Beanie", cursive;
+  font-family: 'Reenie Beanie', cursive;
   padding: 30px;
   margin-top: 10px;
   font-size: 24px;
@@ -152,20 +152,40 @@ button:hover {
   text-align: center;
   font-size: 25px;
 }
+
+.projectlinks li {
+  background-color: rgb(166, 228, 255);
+}
+.projectlinks li:hover {
+  background-color: rgb(235, 113, 158);
+}
 .projects p {
   font-family: sans-serif;
   font-size: 15px;
   font-weight: 100;
 }
 .projects .view {
-  text-decoration: none;
   background-color: rgb(166, 228, 255);
   color: black;
+  text-decoration: none;
 }
 
 .projects .view:hover {
-  background-color: rgb(255, 251, 251);
-  color: rgb(255, 255, 255);
+  background-color: rgb(235, 113, 158);
+  text-decoration: none;
+}
+
+.view a {
+  text-decoration: none;
+  color: black;
+}
+
+.view a:visited {
+  text-decoration: none;
+}
+.view a:active {
+  text-decoration: none;
+  color: black;
 }
 
 .projects .tech {
@@ -175,12 +195,12 @@ button:hover {
   width: 100%;
 }
 iframe {
-  width: 100%;  /* Full width on smaller screens */
+  width: 100%; /* Full width on smaller screens */
   height: 300px; /* Adjust the height to fit better */
 }
 /* footer */
 footer {
-  font-family: "Reenie Beanie", cursive;
+  font-family: 'Reenie Beanie', cursive;
 }
 footer p {
   text-align: center;
@@ -232,7 +252,7 @@ footer a {
     width: 50%;
   }
   .projects .row:after {
-    content: "";
+    content: '';
     display: table;
     clear: both;
   }
@@ -241,7 +261,7 @@ footer a {
   }
   iframe {
     width: 38%;
-    height: 310px; 
+    height: 310px;
     border: none;
     border-radius: 15px;
   }
